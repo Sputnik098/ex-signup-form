@@ -1,0 +1,36 @@
+:root{
+    --bg-form:#f5f5dc;
+    --button: #38defc;
+    --button-hover: #7bebff;
+    --button-active:#1f9bb1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 35rem;
+    padding: 2rem 5rem;
+    background-color: var(--bg-form);
+    border-radius: 1rem;
+}
+
+label {
+    margin-bottom: 0.25rem;
+}
+
+input {
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: var(--button);
+    border-radius: 0.25rem;
+}
+
+button:hover {
+    background-color: var(--button-hover);
+}
+
+button:active {
+    background-color: var(--button-active);
+}
